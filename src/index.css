@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #08182a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container-main{
+  background-color: #192e46;
+  margin: 2vw;
+  border: 1px solid;
+  border-color: #6f87a2;
+  border-radius: 8px;
+}
+
+.inner-container{
+  padding: 16vh;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-family: "Fira Code";
 }
