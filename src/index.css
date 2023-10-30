@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   background-color: #08182a;
   display: flex;
   flex-direction: column;
@@ -18,7 +17,6 @@ code {
 }
 
 .container-main{
-  background-color: #192e46;
   margin: 2vw;
   border: 1px solid;
   border-color: #6f87a2;
@@ -31,7 +29,27 @@ code {
   justify-content: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: white;
   font-family: "Fira Code";
+}
+
+li {
+  list-style-type: none;
+}
+
+p, a {
+  font-family: "Fira Code";
+  margin: 0;
+  color: #bcd1ff;
+}
+
+li {
+  font-family: "Fira Code";
+  margin: 0;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
 }

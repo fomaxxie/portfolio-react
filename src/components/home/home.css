@@ -19,11 +19,14 @@
   filter: blur(100px);
   height: 400px;
   opacity: .5;
-  position: fixed;
+  position: absolute;
   right: 35%;
   rotate: 20deg;
   top: 10%;
   width: 400px;
+  animation:
+    transform 7s ease-in-out infinite both alternate,
+    movement_two 16s ease-in-out infinite both;
 }
 
 .blurry-gradient-blue {
@@ -33,7 +36,17 @@
   bottom: 10%;
   height: 500px;
   opacity: .7;
-  position: fixed;
+  position: absolute;
   right: 10%;
   width: 500px;
+  animation:
+    transform 7s ease-in-out infinite both alternate,
+    movement_two 16s ease-in-out infinite both;
+}
+
+@keyframes movement_two
+{
+    0%,
+  500% { transform: none; }
+   50% { transform: translate(50%, 20%) rotate(-200deg) scale(1.3);}
 }

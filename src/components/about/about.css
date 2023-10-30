@@ -1,0 +1,29 @@
+.about-container {
+  padding: 2vw 10vw;
+}
+
+.about-cards {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.about-card {
+  background-color: rgb(60, 29, 88);
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  width: 50%;
+  box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
+
+}
+
+.about-card > h3 {
+  text-align: center;
+  color: #bcd1ff;
+}
+
+.about-card > li {
+  margin: 0.5rem;
+}
