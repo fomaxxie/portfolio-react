@@ -5,22 +5,31 @@ const Services = () => {
   return  (
     <section id="services">
       <div className = "services-container">
-        <h2>Services</h2>
-        <div>
-          <p>A couple of years now I have been looking to change my career
-            and follow my passion in tech. This started out by teaching myself
-            Python which was shortly followed by PostgreSQL. At my previous job
-            I was excited to be able to utilize my abilities for the first time,
-            soon I was building complex queries that finally allowed the company
-            to visualize their data. That was it, I was hooked. After that I saw
-            that I wanted to pursue this path full time. A couple of months later
-            I enrolled in the 10 week full-stack developer bootcamp from Le Wagon.
-            There I learned a plethora of languages and tools including HTML, CSS,
-            JavaScript ES6, Ruby & Ruby on Rails (including the MVC-Framework),
-            SQL, git & GitHub, Heroku and much more.</p>
+        <h2 style={{textAlign: "center"}}>Services</h2>
+        <div className = "services-card">
+          <h3>Web Development</h3>
+          <li>Build responsive and modern websites</li>
+          <li>Develop interactive web applications</li>
+          <li>Integrate with back-end services</li>
+          <li>Optimize for performance and SEO</li>
+          <li>Implement secure authentication and authorization</li>
+          <li>Provide ongoing maintenance and support</li>
         </div>
-
-
+        <div className = "services-card">
+          <h3>UI / UX Design</h3>
+          <li>Provide basic design concepts</li>
+          <li>Create wireframes and prototypes</li>
+          <li>Design user-friendly interfaces</li>
+          <li>Ensure consistent and intuitive user experiences</li>
+          <li>Conduct user research and usability testing</li>
+        </div>
+        <div className = "services-card">
+          <h3>Advertising</h3>
+          <li>Create engaging and SEO-friendly blog posts</li>
+          <li>Develop multimedia content</li>
+          <li>Build social media campaigns on Facebook</li>
+          <li>Craft email marketing campaigns</li>
+        </div>
       </div>
     </section>
   )

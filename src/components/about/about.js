@@ -20,8 +20,8 @@ const About = () => {
   return  (
     <section id="about">
       <div className = "about-container">
-        <h2>About Me</h2>
-        <div>
+        <h2 style={{textAlign: "center"}}>About Me</h2>
+        <div style={{margin: "3rem 0"}}>
           <p>A couple of years now I have been looking to change my career
             and follow my passion in tech. This started out by teaching myself
             Python which was shortly followed by PostgreSQL. At my previous job

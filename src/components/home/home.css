@@ -1,3 +1,7 @@
+#home {
+  padding: 4rem 0;
+}
+
 .home-intro{
   padding-right: 15%;
   display: flex;
@@ -13,16 +17,16 @@
   object-fit: cover;
 }
 
-.blurry-gradient-green{
+.blurry-gradient-green {
   background: radial-gradient(circle at 50% 50%,#43d9ad,rgba(76,0,255,0));;
   border-radius: 100% 0 0;
   filter: blur(100px);
   height: 400px;
   opacity: .5;
   position: absolute;
-  right: 35%;
+  right: 50%;
   rotate: 20deg;
-  top: 10%;
+  top: 15%;
   width: 400px;
   animation:
     transform 7s ease-in-out infinite both alternate,
@@ -37,7 +41,7 @@
   height: 500px;
   opacity: .7;
   position: absolute;
-  right: 10%;
+  right: 20%;
   width: 500px;
   animation:
     transform 7s ease-in-out infinite both alternate,
@@ -48,5 +52,5 @@
 {
     0%,
   500% { transform: none; }
-   50% { transform: translate(50%, 20%) rotate(-200deg) scale(1.3);}
+   50% { transform: translate(15%, 15%) rotate(-200deg) scale(1.3);}
 }

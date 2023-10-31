@@ -1,3 +1,13 @@
 .services-container {
-  padding: 2vw 10vw;
+  padding: 2vw 15vw;
+}
+
+.services-card {
+  background-color: rgb(60, 29, 88);
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  width: 50%;
+  box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
 }

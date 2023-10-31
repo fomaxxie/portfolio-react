@@ -1,5 +1,5 @@
 .about-container {
-  padding: 2vw 10vw;
+  padding: 5vw 15vw;
 }
 
 .about-cards {
@@ -16,7 +16,13 @@
   margin: 2rem 0;
   width: 50%;
   box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
+  transition: var(--transition);;
+}
 
+.about-card:hover {
+  transition: 0.1s 0.1s, inset 0.1s;
+  background: transparent;
+  border-color: transparent;
 }
 
 .about-card > h3 {
