@@ -1,5 +1,5 @@
 .about-container {
-  padding: 5vw 15vw;
+  padding: 5vw 10vw;
 }
 
 .about-cards {
@@ -9,7 +9,7 @@
 }
 
 .about-card {
-  background-color: rgb(60, 29, 88);
+  background-color: var(--card-blue);
   padding: 1rem;
   border: 1px solid transparent;
   border-radius: 1rem;

@@ -1,17 +1,8 @@
-.gradient-background {
-  background: linear-gradient(45deg,#284667,#08182a,#4c124e);
-  background-size: 100% 100%;
-  animation: gradient-animation 10s ease infinite;
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+:root {
+  --dark-blue: #08182a;
+  --middle-blue: #284667;
+  --light-blue: #6f87a2;
+  --lighter-blue: #bcd1ff;
+  --card-blue: rgb(45, 69, 116);
+  --purple: #4c124e;
 }

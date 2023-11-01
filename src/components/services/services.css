@@ -1,13 +1,38 @@
 .services-container {
-  padding: 2vw 15vw;
+  padding: 2vw 10vw;
+}
+
+.services-cards {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
 }
 
 .services-card {
-  background-color: rgb(60, 29, 88);
-  padding: 1rem;
+  background-color: var(--card-blue);
   border: 1px solid transparent;
   border-radius: 1rem;
   margin: 2rem 0;
+  padding-bottom: 1rem;
   width: 50%;
   box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
+}
+
+.services-card-head {
+  background-color: var(--light-blue);
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding: 0;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
+}
+
+.services-li {
+  margin: 1rem 1rem;
+}
+
+.services-li > li {
+  margin: 0.5rem;
 }

@@ -3,9 +3,11 @@ import "./projects.css"
 
 const Projects = () => {
   return  (
-    <div className = "#">
-     <h1>Projects</h1>
-    </div>
+    <section id="services">
+      <div className = "services-container">
+        <h2 style={{textAlign: "center"}}>Projects</h2>
+      </div>
+    </section>
 
   )
 }
