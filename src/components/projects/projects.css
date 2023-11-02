@@ -1,0 +1,50 @@
+.projects-container {
+  padding: 2vw 10vw;
+}
+
+.projects-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  background-color: var(--card-blue);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.project-card > img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.project-description {
+  padding: 0.5rem 2rem;
+}
+
+.btn {
+  background-color: var(--light-blue);
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 0.1em solid transparent;
+  border-radius: 0.3em;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
