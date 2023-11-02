@@ -1,0 +1,30 @@
+.footer-container {
+  background-color: var(--card-blue);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.footer-links{
+  padding-bottom: 2rem;
+}
+
+.btn-footer {
+  background-color: var(--light-blue);
+  display: inline-block;
+  padding: 0.7rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-right: 2rem;
+}
+
+.btn-footer:hover {
+  background-color: #333;
+  color: #fff;
+}

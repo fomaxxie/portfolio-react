@@ -42,11 +42,11 @@ function Projects() {
                   <div className = "project-description">
                     <h3>{title}</h3>
                     <div className="project-cta">
-                      <a href={github} className="btn" target="_blank">
+                      <a href={github} className="btn" target="_blank" rel='noreferrer'>
                         View Code
                       </a>
 
-                      <a href={link} className="btn btn-primary" target="_blank">
+                      <a href={link} className="btn" target="_blank" rel='noreferrer'>
                         View Project
                       </a>
                     </div>
