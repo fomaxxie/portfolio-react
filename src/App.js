@@ -5,6 +5,7 @@ import Services from "./components/services/services"
 import Projects from "./components/projects/projects"
 import Footer from "./components/footer/footer"
 import Contact from "./components/contact/contact"
+import Navbar from "./components/navbar/navbar"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <div className = "container-main gradient-background">
     <>
       <Home />
+      <Navbar />
       <About />
       <Services />
       <Projects />

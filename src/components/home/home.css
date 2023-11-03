@@ -50,3 +50,30 @@
   500% { transform: none; }
    50% { transform: translate(15%, 15%) rotate(-200deg) scale(1.3);}
 }
+
+/* HomeContacts */
+
+.home-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+  position: absolute;
+  left: 10%;
+  bottom: 3rem;
+}
+
+.home-contacts::after {
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.btn-home {
+  font-size: large;
+}
+
+.btn-home:hover {
+  color: white;
+}

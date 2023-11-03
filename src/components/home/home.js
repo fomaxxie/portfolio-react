@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css"
+import HomeContacts from './HomeContacts'
 import HomePhoto from "../../assets/max-photo.png"
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <div className = "home-photo">
           <img src = {HomePhoto} alt = ""/>
         </div>
+        <HomeContacts />
       </div>
     </section>
   )

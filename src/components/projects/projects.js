@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import IMG1 from "../../assets/projects/midpoint-1.png";
 import IMG2 from "../../assets/projects/spaces-1.png";
+import IMG3 from "../../assets/projects/prcrft.png";
 
 const data = [
   {
@@ -20,8 +21,8 @@ const data = [
   },
   {
     id: 3,
-    img: IMG1,
-    title: "Shopify",
+    img: IMG3,
+    title: "Pristine Crafts (ecom store)",
     github: " link",
     link: "link",
   },
