@@ -4,25 +4,21 @@
 
 .projects-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   gap: 2rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .project-card {
+  box-sizing: border-box;
   background-color: var(--card-blue);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding-bottom: 1rem;
-  width: 100%;
+  /* width: 40vw; */
   box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
   overflow: hidden;
-  transition: var(--transition);
-}
-
-.project-card > img {
-  width: 100%;
-  border-radius: 1rem;
+  /* transition: var(--transition); */
 }
 
 .project-description {
@@ -41,11 +37,19 @@
   text-align: center;
   cursor: pointer;
   transition: all 0.2s;
-  margin-right: 1rem;
+  margin: 0.5rem 0.5rem;
   font-family: "Fira Code";
 }
 
 .btn:hover {
   background-color: #333;
   color: #fff;
+}
+
+
+/* Responsiveness */
+@media (max-width: 620px) { /* Adjust this breakpoint as needed */
+  .projects-cards {
+    grid-template-columns: 1fr; /* switches to a single column layout */
+  }
 }
