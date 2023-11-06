@@ -3,7 +3,7 @@ nav {
   width: max-content;
   display: block;
   padding: 0rem;
-  z-index: auto;
+  z-index: 3;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -29,5 +29,3 @@ nav a:hover {
 nav a.active {
   background: var(--medium-blue);
 }
-
-

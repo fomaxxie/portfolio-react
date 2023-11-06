@@ -14,6 +14,7 @@ const Home = () => {
           <h1>Max Fomkin</h1>
           <h2> {">"} Full-stack developer </h2>
           <h3>Let's build something cool!</h3>
+          <a href='#contact'className="btn btn-action">Get in touch</a>
         </div>
         <div className = "home-photo">
           <img src = {HomePhoto} alt = ""/>
