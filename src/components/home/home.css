@@ -78,7 +78,9 @@
   color: white;
 }
 
-.btn-action {
+#btn-action {
   font-size: large;
-  width: 50wv;
+  width: 10vw;
+  align-items: start;
+  margin: 16px 0;
 }

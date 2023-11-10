@@ -22,17 +22,19 @@ const About = () => {
       <div className = "about-container">
         <h2 style={{textAlign: "center"}}>About Me</h2>
         <div style={{margin: "3rem 0"}}>
-          <p>A couple of years now I have been looking to change my career
-            and follow my passion in tech. This started out by teaching myself
-            Python which was shortly followed by PostgreSQL. At my previous job
-            I was excited to be able to utilize my abilities for the first time,
-            soon I was building complex queries that finally allowed the company
-            to visualize their data. That was it, I was hooked. After that I saw
-            that I wanted to pursue this path full time. A couple of months later
-            I enrolled in the 10 week full-stack developer bootcamp from Le Wagon.
-            There I learned a plethora of languages and tools including HTML, CSS,
-            JavaScript ES6, Ruby & Ruby on Rails (including the MVC-Framework),
-            SQL, git & GitHub, Heroku and much more.</p>
+          <p>
+          Passionate web developer with a unique background in engineering and
+          entrepreneurship. My experience ranges from managing complex industrial
+          construction projects to successfully running e-commerce ventures. This
+          diverse journey has honed my skills in delivering high-quality, creative
+          web solutions with meticulous attention to detail and a strong
+          problem-solving approach.
+          </p>
+          <p>
+          Committed to making a tangible positive impact, I am driven to provide
+          digital experiences that are not just functional, but also transformative
+          for your business.
+          </p>
         </div>
         <div className = "about-cards">
           <div className = "about-card">
