@@ -11,7 +11,7 @@ const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#")
   return (
     <nav>
-      <a href='#' onClick={() => setActiveNav('#')}
+      <a href='#top' onClick={() => setActiveNav('#')}
       className={activeNav === '#' ? 'active' : ''}>
         <AiOutlineHome />
       </a>
