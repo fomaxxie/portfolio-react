@@ -27,3 +27,10 @@ input, textarea {
   left: 23.33%;
   margin: 1rem 0;
 }
+
+.message-success {
+  text-align: center;
+  background-color: transparent;
+  margin: 20px 0;
+  border-radius: 5px;
+}

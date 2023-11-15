@@ -24,11 +24,10 @@ const About = () => {
         <div style={{margin: "3rem 0"}}>
           <p>
           Passionate web developer with a unique background in engineering and
-          entrepreneurship. My experience ranges from managing complex industrial
-          construction projects to successfully running e-commerce ventures. This
-          diverse journey has honed my skills in delivering high-quality, creative
-          web solutions with meticulous attention to detail and a strong
-          problem-solving approach.
+          entrepreneurship. With experiences ranging from managing contracts within complex industrial
+          construction projects to successfully running e-commerce ventures, I approach every new
+          endeavor with an innovative mindset, eagerly embracing challenges and utilizing a blend
+          of analytical thinking and creative problem-solving to drive impactful solutions.
           </p>
           <p>
           Committed to making a tangible positive impact, I am driven to provide
