@@ -6,7 +6,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   gap: 2rem;
-  margin: 2rem auto;
+  width: 100%;
+  align-items: center;
 }
 
 .project-card {
@@ -15,10 +16,8 @@
   border: 1px solid transparent;
   border-radius: 1rem;
   padding-bottom: 1rem;
-  /* width: 40vw; */
   box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
   overflow: hidden;
-  /* transition: var(--transition); */
 }
 
 .project-description {
@@ -46,10 +45,34 @@
   color: #fff;
 }
 
-
-/* Responsiveness */
-@media (max-width: 620px) { /* Adjust this breakpoint as needed */
+/* For tablet devices */
+@media (min-width: 601px) and (max-width: 1024px) {
   .projects-cards {
-    grid-template-columns: 1fr; /* switches to a single column layout */
+    display: block;
+    grid-template-columns: none;
+    gap: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-card {
+    margin-bottom: 2rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  .projects-cards {
+    display: block;
+    grid-template-columns: none;
+    gap: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-card {
+    margin-bottom: 2rem;
   }
 }

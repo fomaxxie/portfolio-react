@@ -36,3 +36,38 @@
 .services-li > li {
   margin: 0.5rem;
 }
+
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  .services-container {
+    padding: 1vw 5vw;
+  }
+
+  .services-cards {
+    display: block;
+  }
+
+  .services-card {
+    width: 100%;
+  }
+}
+
+/* For tablet devices */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .services-container {
+    padding: 2vw 8vw;
+  }
+
+  .services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-card {
+    width: 90%;
+  }
+}

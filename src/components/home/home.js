@@ -10,8 +10,7 @@ const Home = () => {
         <div className = "blurry-gradient-green"></div>
         <div className = "blurry-gradient-blue"></div>
         <div className = "home-intro">
-          <h3>Hi there! I am</h3>
-          <h1>Max Fomkin</h1>
+          <h3>Hi there! I am Max Fomkin</h3>
           <h2> {">"} Full-stack developer </h2>
           <h3>Let's build something cool!</h3>
           <a href='#contact'className="btn" id="btn-action">Get in touch</a>

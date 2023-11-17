@@ -44,12 +44,6 @@ code {
   overflow: hidden;
 }
 
-.inner-container{
-  padding: 12vw;
-  display: flex;
-  justify-content: center;
-}
-
 h1, h2, h3, h4 {
   color: white;
   font-family: "Fira Code";
@@ -77,4 +71,27 @@ a {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* ===================== Breakpoints ========================== */
+/* ===================== Medium Devices ========================== */
+@media screen and (max-width: 1024px) {
+  .container-main {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 1rem;
+  }
+}
+
+/* ===================== Small Devices ========================== */
+@media screen and (max-width: 600px) {
+  .container-main {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

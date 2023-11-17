@@ -9,7 +9,7 @@ const SwipeProjects = ({ imgs }) => {
   return (
     <Swiper
       modules={[Navigation]}
-      spaceBetween={50}
+      spaceBetween={10}
       slidesPerView={1}
       navigation
     >

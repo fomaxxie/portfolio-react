@@ -34,4 +34,41 @@
   margin: 0.5rem;
 }
 
+/* For tablet devices */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .about-container {
+    padding: 2vw 8vw;
+  }
 
+  .about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-card {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  .about-container {
+    padding: 1vw 5vw;
+  }
+
+  .about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-card {
+    width: 90%;
+  }
+}

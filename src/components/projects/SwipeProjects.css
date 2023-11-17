@@ -6,6 +6,6 @@
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: auto; /* maintain the aspect ratio */
-  object-fit: cover; /* adjust as needed: could be 'contain' for no cropping */
+  height: auto;
+  object-fit: cover;
 }

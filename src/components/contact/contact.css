@@ -22,9 +22,7 @@ input, textarea {
 }
 
 .btn-contact {
-  align-self: flex-start;
-  position: relative;
-  left: 23.33%;
+  align-self: center;
   margin: 1rem 0;
 }
 
@@ -33,4 +31,26 @@ input, textarea {
   background-color: transparent;
   margin: 20px 0;
   border-radius: 5px;
+}
+
+/* For tablet devices */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .contact-container {
+    padding: 2vw 8vw;
+  }
+
+  input, textarea {
+    width: 75%;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 1vw 5vw;
+  }
+
+  input, textarea {
+    width: 75%;
+  }
 }

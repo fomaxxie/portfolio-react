@@ -22,14 +22,14 @@ const About = () => {
       <div className = "about-container">
         <h2 style={{textAlign: "center"}}>About Me</h2>
         <div style={{margin: "3rem 0"}}>
-          <p>
+          <p style={{textAlign: "center"}}>
           Passionate web developer with a unique background in engineering and
           entrepreneurship. With experiences ranging from managing contracts within complex industrial
           construction projects to successfully running e-commerce ventures, I approach every new
           endeavor with an innovative mindset, eagerly embracing challenges and utilizing a blend
           of analytical thinking and creative problem-solving to drive impactful solutions.
           </p>
-          <p>
+          <p style={{textAlign: "center"}}>
           Committed to making a tangible positive impact, I am driven to provide
           digital experiences that are not just functional, but also transformative
           for your business.
