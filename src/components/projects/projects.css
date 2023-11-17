@@ -17,9 +17,9 @@
   border: 1px solid transparent;
   border-radius: 1rem;
   padding-bottom: 1rem;
-  box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
+  box-shadow: 0 0 15px rgba(120, 107, 152, 0.2);
   overflow: hidden;
-  height: 22rem;
+  height: 24rem;
 }
 
 .project-description {

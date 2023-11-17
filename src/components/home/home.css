@@ -1,13 +1,13 @@
+.inner-container {
+  padding: 10vw 16vw;
+  display: flex;
+  justify-content: center;
+}
+
 .home-intro {
   padding-right: 15%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.inner-container{
-  padding: 10vw 16vw;
-  display: flex;
   justify-content: center;
 }
 
@@ -91,6 +91,7 @@
   width: 12rem;
   align-items: start;
   margin: 16px 0;
+  z-index: 2;
 }
 
 /* For tablet devices */
