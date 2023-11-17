@@ -18,6 +18,7 @@
   padding-bottom: 1rem;
   box-shadow: 0 0 15px rgba(112, 107, 152, 0.2);
   overflow: hidden;
+  height: 22rem;
 }
 
 .project-description {
@@ -58,6 +59,7 @@
 
   .project-card {
     margin-bottom: 2rem;
+    height: auto;
   }
 }
 
@@ -74,5 +76,6 @@
 
   .project-card {
     margin-bottom: 2rem;
+    height: auto;
   }
 }

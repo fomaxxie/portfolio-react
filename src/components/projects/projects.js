@@ -39,7 +39,7 @@ function Projects() {
   return  (
     <section id="projects">
       <div className = "projects-container">
-        <h2 style={{textAlign: "center"}}>Projects</h2>
+        <h2 style={{textAlign: "center"}}>What I have built</h2>
         <div className = "projects-cards">
           {data.map(({id, imgs, title, github, link}) => {
             return (
@@ -50,10 +50,10 @@ function Projects() {
                     <h3>{title}</h3>
                     <div className="project-cta">
                       <a href={github} className="btn" target="_blank" rel='noreferrer'>
-                        View Code
+                        See Code
                       </a>
                       <a href={link} className="btn" target="_blank" rel='noreferrer'>
-                        View Project
+                        See Project
                       </a>
                     </div>
                   </div>

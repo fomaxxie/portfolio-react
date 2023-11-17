@@ -6,7 +6,7 @@ const Services = () => {
   return  (
     <section id="services">
       <div className = "services-container">
-        <h2 style={{textAlign: "center"}}>Services</h2>
+        <h2 style={{textAlign: "center"}}>What I can do for you</h2>
         <div className = "services-cards">
           <div className = "services-card">
             <div className = "services-card-head">
