@@ -9,6 +9,9 @@ import IMG2_3 from "../../assets/projects/spaces-3.png";
 import IMG3_1 from "../../assets/projects/prcrft.png";
 import IMG3_2 from "../../assets/projects/prcrft-2.png";
 import IMG3_3 from "../../assets/projects/prcrft-3.png";
+import IMG4_1 from "../../assets/projects/aiapp-1.png";
+import IMG4_2 from "../../assets/projects/aiapp-2.png";
+import IMG4_3 from "../../assets/projects/aiapp-3.png";
 import SwipeProjects from "./SwipeProjects";
 
 const data = [
@@ -20,18 +23,25 @@ const data = [
     link: "https://www.midpoint.world/",
   },
   {
-    id: 2,
-    imgs: [IMG2_1, IMG2_2, IMG2_3],
-    title: "Spaces",
-    github: "https://github.com/fomaxxie/spaces",
-    link: "https://spaces-dgraham09-0d4ed9f6ae40.herokuapp.com/",
+    id: 4,
+    imgs: [IMG4_1, IMG4_2, IMG4_3],
+    title: "AiApply",
+    github: "https://github.com/fomaxxie/ai_apply",
+    link: "https://www.aiapply.xyz/",
   },
   {
     id: 3,
     imgs: [IMG3_1, IMG3_2, IMG3_3],
     title: "Pristine Crafts (ecom store)",
-    github: " link",
-    link: "link",
+    github: "",
+    link: "",
+  },
+  {
+    id: 2,
+    imgs: [IMG2_1, IMG2_2, IMG2_3],
+    title: "Spaces",
+    github: "https://github.com/fomaxxie/spaces",
+    link: "",
   },
 ]
 

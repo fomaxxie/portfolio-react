@@ -14,6 +14,7 @@ import {BiLogoTiktok} from "react-icons/bi"
 import {BsFillDatabaseFill} from "react-icons/bs"
 import {BsFillClipboardDataFill} from "react-icons/bs"
 import {BiTestTube} from "react-icons/bi"
+import {FaPython} from "react-icons/fa"
 
 
 const About = () => {
@@ -25,9 +26,9 @@ const About = () => {
           <p style={{textAlign: "center"}}>
           Passionate web developer with a unique background in engineering and
           entrepreneurship. With experiences ranging from managing contracts within complex industrial
-          construction projects to successfully running e-commerce ventures, I approach every new
-          endeavor with an innovative mindset, eagerly embracing challenges and utilizing a blend
-          of analytical thinking and creative problem-solving to drive impactful solutions.
+          projects to successfully running e-commerce ventures, I approach every new
+          endeavor with enthusiasm. By combining analytical thinking with creative problem-solving,
+          I aim to deliver meaningful and effective solutions.
           </p>
           <p style={{textAlign: "center"}}>
           Committed to making a tangible positive impact, I am driven to provide
@@ -49,8 +50,9 @@ const About = () => {
             <h3>Backend Skills</h3>
             <li><DiRubyRough /> Ruby</li>
             <li><SiRubyonrails /> Ruby on Rails</li>
+            <li><FaPython /> Python</li>
             <li><BsFillDatabaseFill /> SQL / PostgreSQL</li>
-            <li><BiLogoNodejs /> Node JS (in progress)</li>
+            <li><BiLogoNodejs /> Node JS</li>
 
           </div>
           <div className = "about-card">
